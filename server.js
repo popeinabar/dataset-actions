@@ -135,10 +135,7 @@ async function sendDataToHubSpot() {
   // Main function to execute both tasks
   async function main() {
     try {
-        const extractionDir = await fetchDataFromKaggle(); // Call fetchDataFromKaggle function
-        // const extractionDir = '/Users/ayushraj/Project/collage/interview/plena/kaggle hubspot/extracted'
-        console.log(extractionDir)
-        console.log("ectractiong of path completed")
+        const extractionDir = await fetchDataFromKaggle(); 
         await addFileToDb(extractionDir);
         await sendDataToHubSpot();
     } catch (error) {
