@@ -3,8 +3,14 @@
     "@hubspot/api-client": "^11.1.0",
     "axios": "^1.6.8",
     "csv-parse": "^5.5.5",
+    "csv-parser": "^3.0.0",
     "dotenv": "^16.4.5",
+    "extract-zip": "^2.0.1",
     "mysql2": "^3.9.4",
+    "playwright": "^1.43.1",
     "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
   }
 }
